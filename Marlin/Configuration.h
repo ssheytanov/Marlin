@@ -484,9 +484,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Black Widow
-  #define DEFAULT_Kp 36.40
-  #define DEFAULT_Ki 3.86
-  #define DEFAULT_Kd 85.73
+  #define DEFAULT_Kp 22.97
+  #define DEFAULT_Ki 1.79
+  #define DEFAULT_Kd 73.85
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1064,7 +1064,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1093,7 +1093,7 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 340
+#define X_BED_SIZE 330
 #define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
